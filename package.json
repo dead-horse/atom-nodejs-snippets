@@ -1,8 +1,9 @@
 {
   "name": "nodejs-snippets",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "atom nodejs snippets",
   "main": "index.js",
-  "author": "dead_horse",
+  "author": "dead_horse <dead_horse@qq.com>",
+  "repository": "https://github.com/dead-horse/atom-nodejs-snippets",
   "license": "MIT"
 }
