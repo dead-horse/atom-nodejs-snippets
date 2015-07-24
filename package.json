@@ -1,0 +1,8 @@
+{
+  "name": "nodejs-snippets",
+  "version": "1.0.0",
+  "description": "atom nodejs snippets",
+  "main": "index.js",
+  "author": "dead_horse",
+  "license": "MIT"
+}
