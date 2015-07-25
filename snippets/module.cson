@@ -5,7 +5,7 @@
     module.exports = ${1:name}
     """
   "require":
-    "prefix": "require"
+    "prefix": "req"
     "body": """
     require('${1:module}')
     """
