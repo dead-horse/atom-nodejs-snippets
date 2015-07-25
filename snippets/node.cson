@@ -12,12 +12,12 @@
   "fs.readFile":
     "prefix": "fsread"
     "body": """
-    fs.readFile(${1:filename}, ${2:content})
+    fs.readFile(${1:filename}, ${2:charset})
     """
   "fs.readFileSync":
     "prefix": "fsreads"
     "body": """
-    fs.readFileSync(${1:filename}, ${2:content})
+    fs.readFileSync(${1:filename}, ${2:charset})
     """
   "fs.exists":
     "prefix": "fsexists"
