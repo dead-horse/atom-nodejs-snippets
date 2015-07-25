@@ -1,6 +1,6 @@
 {
   "name": "nodejs-snippets",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "atom nodejs snippets",
   "main": "index.js",
   "author": "dead_horse <dead_horse@qq.com>",
