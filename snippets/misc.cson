@@ -37,7 +37,7 @@
     }
     """
   "try-finally":
-    "prefix": "try"
+    "prefix": "try-finally"
     "body": """
     try {
       ${1://body...}
