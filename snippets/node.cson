@@ -49,7 +49,7 @@
   "util.inherits":
     "prefix": "inherits"
     "body": """
-    util.interits(${1:constructor}, ${2:superConstructor})
+    util.inherits(${1:constructor}, ${2:superConstructor})
     """
   "util.format":
     "prefix": "format"
