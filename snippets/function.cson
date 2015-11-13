@@ -6,6 +6,13 @@
     \t${0:// body...}
     }
     """
+  "arrow function":
+    "prefix": "afn"
+    "body": """
+    ${1:arguments} => {
+    \t${0:// body...}
+    }
+    """
   "generator function":
     "prefix": "gfn"
     "body": """

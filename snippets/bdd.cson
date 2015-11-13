@@ -3,14 +3,14 @@
   "before asynchronous":
     "prefix": "beforea"
     "body": """
-    before(function (done) {
+    before(done => {
     \t${0:// body...}
     })
     """
   "before synchronous":
     "prefix": "befores"
     "body": """
-    before(function () {
+    before(() => {
     \t${0:// body...}
     })
     """
@@ -30,14 +30,14 @@
   "after asynchronous":
     "prefix": "aftera"
     "body": """
-    after(function (done) {
+    after(done => {
     \t${0:// body...}
     })
     """
   "after synchronous":
     "prefix": "afters"
     "body": """
-    after(function () {
+    after(() => {
     \t${0:// body...}
     })
     """
@@ -57,14 +57,14 @@
   "beforeEach asynchronous":
     "prefix": "beforeEacha"
     "body": """
-    beforeEach(function (done) {
+    beforeEach(done => {
     \t${0:// body...}
     })
     """
   "beforeEach synchronous":
     "prefix": "beforeEachs"
     "body": """
-    beforeEach(function () {
+    beforeEach(() => {
     \t${0:// body...}
     })
     """
@@ -84,14 +84,14 @@
   "afterEach asynchronous":
     "prefix": "afterEacha"
     "body": """
-    afterEach(function (done) {
+    afterEach(done => {
     \t${0:// body...}
     })
     """
   "afterEach synchronous":
     "prefix": "afterEachs"
     "body": """
-    afterEach(function () {
+    afterEach(() => {
     \t${0:// body...}
     })
     """
@@ -111,7 +111,7 @@
   "describe":
     "prefix": "describe"
     "body": """
-    describe('${1:description}', function () {
+    describe('${1:description}', () => {
     \t${0:// body...}
     })
     """
@@ -119,14 +119,14 @@
   "it asynchronous":
     "prefix": "ita"
     "body": """
-    it('${1:description}', function (done) {
+    it('${1:description}', done => {
     \t${0:// body...}
     })
     """
   "it synchronous":
     "prefix": "its"
     "body": """
-    it('${1:description}', function () {
+    it('${1:description}', () => {
     \t${0:// body...}
     })
     """

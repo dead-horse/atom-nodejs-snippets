@@ -2,14 +2,21 @@
   "setTimeout":
     "prefix": "st"
     "body": """
-    setTimeout(function () {
+    setTimeout(() => {
     \t${0:// body...}
     }, ${1:delay})
     """
   "setInterval":
-    "prefix": "si"
+    "prefix": "sin"
     "body": """
-    setInterval(function () {
+    setInterval(() => {
     \t${0:// body...}
     }, ${1:delay})
+    """
+  "setImmediate":
+    "prefix": "sim"
+    "body": """
+    setImmediate(() => {
+    \t${0:// body...}
+    })
     """
