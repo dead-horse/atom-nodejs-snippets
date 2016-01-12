@@ -5,26 +5,26 @@
     "body": """
     before(done => {
     \t${0:// body...}
-    })
+    });
     """
   "before synchronous":
     "prefix": "befores"
     "body": """
     before(() => {
     \t${0:// body...}
-    })
+    });
     """
   "before synchronous":
     "prefix": "beforeg"
     "body": """
     before(function * () {
     \t${0:// body...}
-    })
+    });
     """
   "before":
     "prefix": "before"
     "body": """
-    before(${1:fn})
+    before(${1:fn});
     """
 
   "after asynchronous":
@@ -32,26 +32,26 @@
     "body": """
     after(done => {
     \t${0:// body...}
-    })
+    });
     """
   "after synchronous":
     "prefix": "afters"
     "body": """
     after(() => {
     \t${0:// body...}
-    })
+    });
     """
   "after synchronous":
     "prefix": "afterg"
     "body": """
     after(function * () {
     \t${0:// body...}
-    })
+    });
     """
   "after":
     "prefix": "after"
     "body": """
-    after(${1:fn})
+    after(${1:fn});
     """
 
   "beforeEach asynchronous":
@@ -59,26 +59,26 @@
     "body": """
     beforeEach(done => {
     \t${0:// body...}
-    })
+    });
     """
   "beforeEach synchronous":
     "prefix": "beforeEachs"
     "body": """
     beforeEach(() => {
     \t${0:// body...}
-    })
+    });
     """
   "beforeEach synchronous":
     "prefix": "beforeEachg"
     "body": """
     beforeEach(function * () {
     \t${0:// body...}
-    })
+    });
     """
   "beforeEach":
     "prefix": "beforeEach"
     "body": """
-    beforeEach(${1:fn})
+    beforeEach(${1:fn});
     """
 
   "afterEach asynchronous":
@@ -86,26 +86,26 @@
     "body": """
     afterEach(done => {
     \t${0:// body...}
-    })
+    });
     """
   "afterEach synchronous":
     "prefix": "afterEachs"
     "body": """
     afterEach(() => {
     \t${0:// body...}
-    })
+    });
     """
   "afterEach synchronous":
     "prefix": "afterEachg"
     "body": """
     afterEach(function * () {
     \t${0:// body...}
-    })
+    });
     """
   "afterEach":
     "prefix": "afterEach"
     "body": """
-    afterEach(${1:fn})
+    afterEach(${1:fn});
     """
 
   "describe":
@@ -113,7 +113,7 @@
     "body": """
     describe('${1:description}', () => {
     \t${0:// body...}
-    })
+    });
     """
 
   "it asynchronous":
@@ -121,19 +121,19 @@
     "body": """
     it('${1:description}', done => {
     \t${0:// body...}
-    })
+    });
     """
   "it synchronous":
     "prefix": "its"
     "body": """
     it('${1:description}', () => {
     \t${0:// body...}
-    })
+    });
     """
   "it generator":
     "prefix": "itg"
     "body": """
     it('${1:description}', function * () {
     \t${0:// body...}
-    })
+    });
     """
