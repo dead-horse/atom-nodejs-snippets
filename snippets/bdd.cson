@@ -133,7 +133,7 @@
   "it generator":
     "prefix": "itg"
     "body": """
-    it('${1:description}', function * () {
+    it('${1:description}', function* () {
     \t${0:// body...}
     });
     """
