@@ -17,7 +17,7 @@
   "before synchronous":
     "prefix": "beforeg"
     "body": """
-    before(function * () {
+    before(function* () {
     \t${0:// body...}
     });
     """
@@ -44,7 +44,7 @@
   "after synchronous":
     "prefix": "afterg"
     "body": """
-    after(function * () {
+    after(function* () {
     \t${0:// body...}
     });
     """
@@ -71,7 +71,7 @@
   "beforeEach synchronous":
     "prefix": "beforeEachg"
     "body": """
-    beforeEach(function * () {
+    beforeEach(function* () {
     \t${0:// body...}
     });
     """
@@ -98,7 +98,7 @@
   "afterEach synchronous":
     "prefix": "afterEachg"
     "body": """
-    afterEach(function * () {
+    afterEach(function* () {
     \t${0:// body...}
     });
     """
